@@ -1,6 +1,6 @@
 
 
-# Xfce Config
+# Lxqt Config
 
 * [Config File Path](#config-file-path)
 * [Arch Group Package](#arch-group-package)
@@ -11,7 +11,7 @@
 
 ## Config File Path
 
-* [xfce](#xfce)
+* [lxqt](#lxqt)
 * [default-cursor-theme](#default-cursor-theme)
 * [gtk2](#gtk2)
 * [gtk3](#gtk3)
@@ -21,25 +21,25 @@
 * [qt6ct](#qt6ct)
 * [mimeapps.list](#mimeappslist)
 * [thunar](#thunar)
-* [xfce4-terminal](#xfce4-terminal)
+* [lxqt4-terminal](#lxqt4-terminal)
 * [pcmanfm-qt](#pcmanfm-qt)
 * [qterminal](#qterminal)
 * [sakura](#sakura)
 
 
-### xfce
+### lxqt
 
 | Config File Path |
 | --- |
-| [~/.config/xfce4/helpers.rc](./asset/overlay/etc/skel/.config/xfce4/helpers.rc) |
-| [~/.config/xfce4/panel/whiskermenu-1.rc](./asset/overlay/etc/skel/.config/xfce4/panel/whiskermenu-1.rc) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml) |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml) |
+| [~/.config/lxqt4/helpers.rc](./asset/overlay/etc/skel/.config/lxqt4/helpers.rc) |
+| [~/.config/lxqt4/panel/whiskermenu-1.rc](./asset/overlay/etc/skel/.config/lxqt4/panel/whiskermenu-1.rc) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-panel.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-panel.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-session.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-session.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/xfwm4.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/xfwm4.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-desktop.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-desktop.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/xsettings.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/xsettings.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-keyboard-shortcuts.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-keyboard-shortcuts.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/keyboards.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/keyboards.xml) |
 
 
 ### default-cursor-theme
@@ -104,17 +104,17 @@
 
 | Config File Path |
 | --- |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/thunar.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/thunar.xml) |
 | [~/.config/Thunar/uca.xml](./asset/overlay/etc/skel/.config/Thunar/uca.xml) |
 | [~/.config/Thunar/accels.scm](./asset/overlay/etc/skel/..config/Thunar/accels.scm) |
 
 
-### xfce4-terminal
+### lxqt4-terminal
 
 | Config File Path |
 | --- |
-| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml) |
-| [~/.config/xfce4/terminal/accels.scm](./asset/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
+| [~/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-terminal.xml](./asset/overlay/etc/skel/.config/lxqt4/xfconf/lxqt-perchannel-xml/lxqt4-terminal.xml) |
+| [~/.config/lxqt4/terminal/accels.scm](./asset/overlay/etc/skel/.config/lxqt4/terminal/accels.scm) |
 
 
 ### pcmanfm-qt
@@ -148,7 +148,7 @@
 
 | Arch Group Package |
 | --- |
-| [xfce4](https://archlinux.org/groups/x86_64/xfce4/) |
+| [lxqt4](https://archlinux.org/groups/x86_64/lxqt4/) |
 
 
 

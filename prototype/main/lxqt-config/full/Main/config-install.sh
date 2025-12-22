@@ -4,39 +4,39 @@ set -e
 
 
 ################################################################################
-### Head: xfce
+### Head: lxqt
 ##
 
-xfce_config_run_pre () {
+lxqt_config_run_pre () {
 
-	xfce_service_stop
-
-
-	return 0
-
-}
-
-xfce_config_run_post () {
-
-	xfce_service_start
+	lxqt_service_stop
 
 
 	return 0
 
 }
 
-xfce_service_stop () {
+lxqt_config_run_post () {
 
-	xfce_service_stop_xfconfd
-
-	#xfce_service_stop_xfsettingsd
+	lxqt_service_start
 
 
 	return 0
 
 }
 
-xfce_service_stop_xfconfd () {
+lxqt_service_stop () {
+
+	lxqt_service_stop_xfconfd
+
+	#lxqt_service_stop_xfsettingsd
+
+
+	return 0
+
+}
+
+lxqt_service_stop_xfconfd () {
 
 	if killall -9 xfconfd; then
 		return 0
@@ -47,7 +47,7 @@ xfce_service_stop_xfconfd () {
 
 }
 
-xfce_service_stop_xfsettingsd () {
+lxqt_service_stop_xfsettingsd () {
 
 	if killall -9 xfsettingsd; then
 		return 0
@@ -58,30 +58,30 @@ xfce_service_stop_xfsettingsd () {
 
 }
 
-xfce_service_start () {
+lxqt_service_start () {
 
 
 	return 0
 
 }
 
-xfce_config_install () {
+lxqt_config_install () {
 
 	echo
 	echo "##"
-	echo "## Config: xfce"
+	echo "## Config: lxqt"
 	echo "##"
 	echo
 
 
-	xfce_config_install_by_dir
+	lxqt_config_install_by_dir
 
 
 	echo
 
 }
 
-xfce_config_install_by_dir () {
+lxqt_config_install_by_dir () {
 
 
 	echo
@@ -97,7 +97,7 @@ xfce_config_install_by_dir () {
 }
 
 ##
-### Tail: xfce
+### Tail: lxqt
 ################################################################################
 
 
@@ -107,11 +107,11 @@ xfce_config_install_by_dir () {
 
 main_config_install () {
 
-	xfce_config_run_pre
+	lxqt_config_run_pre
 
-	xfce_config_install
+	lxqt_config_install
 
-	xfce_config_run_post
+	lxqt_config_run_post
 
 }
 

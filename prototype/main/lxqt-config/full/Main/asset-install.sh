@@ -4,14 +4,14 @@ set -e
 
 
 ################################################################################
-### Head: xfce
+### Head: lxqt
 ##
 
-xfce_asset_install () {
+lxqt_asset_install () {
 
 	echo
 	echo "##"
-	echo "## Asset: xfce"
+	echo "## Asset: lxqt"
 	echo "##"
 	echo
 
@@ -25,7 +25,7 @@ xfce_asset_install () {
 
 
 ##
-### Tail: xfce
+### Tail: lxqt
 ################################################################################
 
 
@@ -35,7 +35,7 @@ xfce_asset_install () {
 
 main_asset_install () {
 
-	xfce_asset_install
+	lxqt_asset_install
 
 }
 
