@@ -1,0 +1,31 @@
+
+
+##
+## # Lxqt
+##
+
+
+
+
+##
+## ## Link
+##
+##
+
+
+
+
+##
+## ## Package / Desktop Environment / lxqt
+##
+
+lxqt
+
+
+
+
+##
+## ## Package / Window Manager / openbox
+##
+
+openbox
