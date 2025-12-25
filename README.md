@@ -47,13 +47,11 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Lxqt Adjustment](https://samwhelp.github.io/lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/lxqt-adjustment) |
-| [Pardus Lxqt Adjustment](https://samwhelp.github.io/pardus-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/pardus-lxqt-adjustment) |
 | [Debian Lxqt Adjustment](https://samwhelp.github.io/debian-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/debian-lxqt-adjustment) |
-| [Ubuntu Lxqt Adjustment](https://samwhelp.github.io/ubuntu-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-lxqt-adjustment) |
+| [Lubuntu Adjustment](https://samwhelp.github.io/lubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/lubuntu-adjustment) |
 | [Fedora Lxqt Adjustment](https://samwhelp.github.io/fedora-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-lxqt-adjustment) |
 | [Archlinux Lxqt Adjustment](https://samwhelp.github.io/archlinux-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-lxqt-adjustment) |
-| [Manjaro Lxqt Adjustment](https://samwhelp.github.io/manjaro-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/manjaro-lxqt-adjustment) |
-| [Solus Lxqt Adjustment](https://samwhelp.github.io/solus-lxqt-adjustment/) | [GitHub](https://github.com/samwhelp/solus-lxqt-adjustment) |
+
 
 
 
